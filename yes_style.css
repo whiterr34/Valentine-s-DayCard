@@ -1,0 +1,33 @@
+
+#love {
+    transition-property: transform;
+    transition-duration: 0.3s;
+    transition-timing-function: ease;
+    transition-delay: 0s;
+
+    transition: transform 0.3s;
+}
+
+.btn:hover{
+        transform: translateY(10px);
+    }
+
+.buttons {
+    display: flex;
+    justify-content: left;
+    align-content: left;
+}
+
+.btn {
+    background-color: #EF408B;
+    font-family: 'arial black';
+    color: white;
+    padding: 13px 13px;
+    font-size: 25px;
+    font-smooth: ;
+    margin: 5px;
+    cursor: pointer;
+    border: none;
+    border-radius: 12px;
+    transition: background-color 0.3s ease;
+}
